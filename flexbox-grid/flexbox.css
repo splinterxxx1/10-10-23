@@ -1,0 +1,27 @@
+*{
+    font-size: 20px;
+}
+.padre{
+    background-color: blue;
+    height: 800px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px  ;/* es la distancia entre objetos*/
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    /*display: flex;
+    /*flex-direction: row;/* indicar si los hijos*/
+}
+.hijos{
+    background-color: red;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin:20px;
+}
+.elemento3{
+    align-self: center;
+    background-color: aqua;
+}

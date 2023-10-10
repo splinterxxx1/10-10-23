@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+body{
+    background-color: white;
+}r
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    text-decoration: overline;
+    font-weight: bolder;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+}
+.tarjeta{
+    width: 250px;
+    border: 5px solid black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+}
+
+.boton-tarjeta{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+nav{
+    background-color:pink ;
+    padding: 20px;
+    color: white;
+}
